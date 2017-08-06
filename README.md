@@ -1,5 +1,11 @@
-# GoEuro
+# About the code
+I have Used SDWebimage Library via CocoaPods just for the demonstration otherwise we can clone the library in our project itself and use it.
+There are 2 warnings about text allignment regarding UIlable for iOS 7 only
+I was not able to run and test the app in iOS 7 as the latest XCode and MACOS cant integrate iOS 7 simulator
+But hopefully it will work fine in iOS 7 too.
 
+
+#Test
 **What's better than a real-life case?**
 
 Implement an application that consist of one screen containing our 3 travel modes (Train, Buses & flights) that we offer at GoEuro. The view has 3 tabs, each representing one of the three travel options we display in our results. There’s no specific design for the cells but the list has to be clear & readable for the user and should display the following:
