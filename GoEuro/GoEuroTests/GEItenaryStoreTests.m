@@ -43,7 +43,8 @@
 
 
 -(void)testFetchTravelOptions {
-    XCTestExpectation *expectation = [self expectationWithDescription:@"Testing Async Method Works Correctly!"];
+    
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Testing Async Get Travel options"];
 
     NSArray *travelModes = [self.sharedStore getTravelModes];
     GETravelMode *mode = [travelModes firstObject];
@@ -62,12 +63,4 @@
         
     }];
 }
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
-
 @end

@@ -38,9 +38,9 @@
 		BEC1B0501F34A7520046F3A6 /* GEItenaryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */; };
 		BEC1B0511F34A7520046F3A6 /* GEItenaryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */; };
 		BEC1B0521F34A7520046F3A6 /* GEItenaryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */; };
-		BEC1B0561F34A78D0046F3A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* ViewController.m */; };
-		BEC1B0571F34A78D0046F3A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* ViewController.m */; };
-		BEC1B0581F34A78D0046F3A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* ViewController.m */; };
+		BEC1B0561F34A78D0046F3A6 /* TravelOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* TravelOptionsViewController.m */; };
+		BEC1B0571F34A78D0046F3A6 /* TravelOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* TravelOptionsViewController.m */; };
+		BEC1B0581F34A78D0046F3A6 /* TravelOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* TravelOptionsViewController.m */; };
 		BEC1B05B1F3503A80046F3A6 /* GESortOption.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05A1F3503A80046F3A6 /* GESortOption.m */; };
 		BEC1B05C1F3503A80046F3A6 /* GESortOption.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05A1F3503A80046F3A6 /* GESortOption.m */; };
 		BEC1B05D1F3503A80046F3A6 /* GESortOption.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05A1F3503A80046F3A6 /* GESortOption.m */; };
@@ -123,8 +123,8 @@
 		BEC1B0461F34A72B0046F3A6 /* GEItenaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEItenaryTableViewCell.m; sourceTree = "<group>"; };
 		BEC1B04E1F34A7520046F3A6 /* GEItenaryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEItenaryStore.h; sourceTree = "<group>"; };
 		BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEItenaryStore.m; sourceTree = "<group>"; };
-		BEC1B0541F34A78D0046F3A6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		BEC1B0551F34A78D0046F3A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BEC1B0541F34A78D0046F3A6 /* TravelOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TravelOptionsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BEC1B0551F34A78D0046F3A6 /* TravelOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TravelOptionsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BEC1B0591F3503A80046F3A6 /* GESortOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GESortOption.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		BEC1B05A1F3503A80046F3A6 /* GESortOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GESortOption.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BEC1B05E1F3505C50046F3A6 /* GESortOptionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESortOptionViewModel.h; sourceTree = "<group>"; };
@@ -347,8 +347,8 @@
 		BEC1B0531F34A78D0046F3A6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BEC1B0541F34A78D0046F3A6 /* ViewController.h */,
-				BEC1B0551F34A78D0046F3A6 /* ViewController.m */,
+				BEC1B0541F34A78D0046F3A6 /* TravelOptionsViewController.h */,
+				BEC1B0551F34A78D0046F3A6 /* TravelOptionsViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -689,7 +689,7 @@
 				BEC1B02C1F34A6D30046F3A6 /* GETravelMode.m in Sources */,
 				BEC1AFC71F3317990046F3A6 /* GoEuro.xcdatamodeld in Sources */,
 				BEC1B03D1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */,
-				BEC1B0561F34A78D0046F3A6 /* ViewController.m in Sources */,
+				BEC1B0561F34A78D0046F3A6 /* TravelOptionsViewController.m in Sources */,
 				BEC1B0471F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m in Sources */,
 				BEC1B0601F3505C50046F3A6 /* GESortOptionViewModel.m in Sources */,
 				BEC1B08F1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m in Sources */,
@@ -711,7 +711,7 @@
 				BE531CC01F36F87E00261629 /* GEItenaryStoreTests.m in Sources */,
 				BEC1B03E1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */,
 				BEC1B0351F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */,
-				BEC1B0571F34A78D0046F3A6 /* ViewController.m in Sources */,
+				BEC1B0571F34A78D0046F3A6 /* TravelOptionsViewController.m in Sources */,
 				BEC1B04B1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */,
 				BEC1B02D1F34A6D30046F3A6 /* GETravelMode.m in Sources */,
 				BEC1B0511F34A7520046F3A6 /* GEItenaryStore.m in Sources */,
@@ -733,7 +733,7 @@
 				BEC1B03F1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */,
 				BEC1B0361F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */,
 				BEC1AFE21F3317990046F3A6 /* GoEuroUITests.m in Sources */,
-				BEC1B0581F34A78D0046F3A6 /* ViewController.m in Sources */,
+				BEC1B0581F34A78D0046F3A6 /* TravelOptionsViewController.m in Sources */,
 				BEC1B04C1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */,
 				BEC1B02E1F34A6D30046F3A6 /* GETravelMode.m in Sources */,
 				BEC1B0521F34A7520046F3A6 /* GEItenaryStore.m in Sources */,

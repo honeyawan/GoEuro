@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+@interface TravelOptionsViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UITableView *itenaryTableView;
 @property (weak, nonatomic) IBOutlet UICollectionView *transportationModeCollectionView;

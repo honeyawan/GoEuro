@@ -6,14 +6,14 @@
 //  Copyright © 2017 Demo. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TravelOptionsViewController.h"
 #import "GETravelOptionsViewModel.h"
 #import "GETravelModeViewModel.h"
 #import "GEItenaryTableViewCell.h"
 #import "GEItenaryModeCollectionCell.h"
 #import "GESortOptionViewModel.h"
 
-@interface ViewController ()
+@interface TravelOptionsViewController ()
 
 @property (nonatomic,strong)GETravelOptionsViewModel* itenaryViewModel;
 @property (nonatomic,strong)GETravelModeViewModel* modeViewModel;
@@ -21,20 +21,24 @@
 
 @end
 
-@implementation ViewController
+@implementation TravelOptionsViewController
 
 #pragma mark - ViewController LifeCycle
 
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+//    [self.navigationController setNavigationBarHidden:true];
     self.itenaryViewModel = [[GETravelOptionsViewModel alloc] init];
     self.modeViewModel = [[GETravelModeViewModel alloc] init];
     self.sortViewModel = [[GESortOptionViewModel alloc] init];
     [self fetchItenaries];
     
+}
 
-
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)didReceiveMemoryWarning {
