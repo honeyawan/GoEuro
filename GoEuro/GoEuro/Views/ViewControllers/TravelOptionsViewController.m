@@ -28,7 +28,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-//    [self.navigationController setNavigationBarHidden:true];
+    [self.navigationController setNavigationBarHidden:true];
     self.itenaryViewModel = [[GETravelOptionsViewModel alloc] init];
     self.modeViewModel = [[GETravelModeViewModel alloc] init];
     self.sortViewModel = [[GESortOptionViewModel alloc] init];
@@ -50,13 +50,17 @@
 
 -(void)fetchItenaries {
     
-    
+    [self.spinner startAnimating];
+    __weak TravelOptionsViewController *weakSelf = self;
+
+
     [self.itenaryViewModel fetchItenariesWithURL:[self.modeViewModel selectedItenaryURl] sortOption:[self.sortViewModel getSelectedSortType] completionHandler:^(NSError * _Nullable error) {
+        [weakSelf.spinner stopAnimating];
         if (error) {
             // Show Error Message
         }
         else {
-            [self.itenaryTableView reloadData];
+            [weakSelf.itenaryTableView reloadData];
         }
     }];
 }
@@ -72,6 +76,28 @@
     
     [UIView animateWithDuration:1.0 animations:^{
         self.sortOptionVerticalOffset.constant = self.sortOptionVerticalOffset.constant == 30 ? -10.0 : 30;
+    }];
+    
+}
+
+-(void)showInfoMessage {
+    self.view.userInteractionEnabled = false;
+    
+    
+    [UIView animateWithDuration:0.5 animations:^{
+        self.offerInfoMsgView.alpha = 1.0;
+    } completion:^(BOOL finished) {
+        [self hideInfoMessage];
+    }];
+}
+
+-(void)hideInfoMessage {
+    
+    [UIView animateWithDuration:0.5 delay:0.75 options:UIViewAnimationOptionCurveLinear animations:^{
+        self.offerInfoMsgView.alpha = 0.0;
+    } completion:^(BOOL finished) {
+        self.view.userInteractionEnabled = true;
+
     }];
 }
 
@@ -138,6 +164,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:true];
+    [self showInfoMessage];
 }
 
 

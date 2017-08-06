@@ -10,6 +10,8 @@
 @interface TravelOptionsViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UITableView *itenaryTableView;
+@property (weak, nonatomic) IBOutlet UIView *offerInfoMsgView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 @property (weak, nonatomic) IBOutlet UICollectionView *transportationModeCollectionView;
 @property (weak, nonatomic) IBOutlet UICollectionView *sortOptionsCollectionView;
 @property (weak, nonatomic) IBOutlet UILabel *lblCityTitle;

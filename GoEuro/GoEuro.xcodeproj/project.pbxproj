@@ -859,6 +859,7 @@
 			baseConfigurationReference = 9CED1086D85E8992B51FC9DB /* Pods-GoEuro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5GBJP5SBDD;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = GoEuro/Info.plist;
@@ -874,6 +875,7 @@
 			baseConfigurationReference = 0B7E590C1BB8C53F383D4710 /* Pods-GoEuro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5GBJP5SBDD;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = GoEuro/Info.plist;
