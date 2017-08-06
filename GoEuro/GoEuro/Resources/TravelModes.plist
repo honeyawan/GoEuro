@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Train</string>
+		<key>identifier</key>
+		<string>0</string>
+		<key>itenaryURL</key>
+		<string>https://api.myjson.com/bins/3zmcy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Buses</string>
+		<key>identifier</key>
+		<string>1</string>
+		<key>itenaryURL</key>
+		<string>https://api.myjson.com/bins/37yzm</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Flights</string>
+		<key>identifier</key>
+		<string>2</string>
+		<key>itenaryURL</key>
+		<string>https://api.myjson.com/bins/w60i</string>
+	</dict>
+</array>
+</plist>

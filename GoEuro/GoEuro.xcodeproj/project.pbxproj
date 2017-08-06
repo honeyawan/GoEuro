@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71CB143847283DE39ED5091D /* libPods-GoEuroTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F63F1BA179B86781FF720C5C /* libPods-GoEuroTests.a */; };
+		97485727751F8889B11409ED /* libPods-GoEuro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49E34DAD9027DC5A90D05D6 /* libPods-GoEuro.a */; };
+		BE531CC01F36F87E00261629 /* GEItenaryStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE531CBF1F36F87E00261629 /* GEItenaryStoreTests.m */; };
+		BE531CC21F36F88E00261629 /* GECoreDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE531CC11F36F88E00261629 /* GECoreDataManagerTests.m */; };
+		BE531CC41F36F8A100261629 /* GEViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE531CC31F36F8A100261629 /* GEViewControllerTests.m */; };
+		BEC1AFBB1F3317990046F3A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1AFBA1F3317990046F3A6 /* main.m */; };
+		BEC1AFBE1F3317990046F3A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1AFBD1F3317990046F3A6 /* AppDelegate.m */; };
+		BEC1AFC71F3317990046F3A6 /* GoEuro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEC1AFC51F3317990046F3A6 /* GoEuro.xcdatamodeld */; };
+		BEC1AFC91F3317990046F3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC1AFC81F3317990046F3A6 /* Assets.xcassets */; };
+		BEC1AFE21F3317990046F3A6 /* GoEuroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1AFE11F3317990046F3A6 /* GoEuroUITests.m */; };
+		BEC1B02C1F34A6D30046F3A6 /* GETravelMode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0281F34A6D30046F3A6 /* GETravelMode.m */; };
+		BEC1B02D1F34A6D30046F3A6 /* GETravelMode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0281F34A6D30046F3A6 /* GETravelMode.m */; };
+		BEC1B02E1F34A6D30046F3A6 /* GETravelMode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0281F34A6D30046F3A6 /* GETravelMode.m */; };
+		BEC1B0341F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0311F34A6F30046F3A6 /* GETravelOptionsViewModel.m */; };
+		BEC1B0351F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0311F34A6F30046F3A6 /* GETravelOptionsViewModel.m */; };
+		BEC1B0361F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0311F34A6F30046F3A6 /* GETravelOptionsViewModel.m */; };
+		BEC1B0371F34A6F30046F3A6 /* GETravelModeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0331F34A6F30046F3A6 /* GETravelModeViewModel.m */; };
+		BEC1B0381F34A6F30046F3A6 /* GETravelModeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0331F34A6F30046F3A6 /* GETravelModeViewModel.m */; };
+		BEC1B0391F34A6F30046F3A6 /* GETravelModeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0331F34A6F30046F3A6 /* GETravelModeViewModel.m */; };
+		BEC1B03D1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B03C1F34A7090046F3A6 /* GENetworkAdapter.m */; };
+		BEC1B03E1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B03C1F34A7090046F3A6 /* GENetworkAdapter.m */; };
+		BEC1B03F1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B03C1F34A7090046F3A6 /* GENetworkAdapter.m */; };
+		BEC1B0471F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0431F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m */; };
+		BEC1B0481F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0431F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m */; };
+		BEC1B0491F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0431F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m */; };
+		BEC1B04A1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0461F34A72B0046F3A6 /* GEItenaryTableViewCell.m */; };
+		BEC1B04B1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0461F34A72B0046F3A6 /* GEItenaryTableViewCell.m */; };
+		BEC1B04C1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0461F34A72B0046F3A6 /* GEItenaryTableViewCell.m */; };
+		BEC1B0501F34A7520046F3A6 /* GEItenaryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */; };
+		BEC1B0511F34A7520046F3A6 /* GEItenaryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */; };
+		BEC1B0521F34A7520046F3A6 /* GEItenaryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */; };
+		BEC1B0561F34A78D0046F3A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* ViewController.m */; };
+		BEC1B0571F34A78D0046F3A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* ViewController.m */; };
+		BEC1B0581F34A78D0046F3A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0551F34A78D0046F3A6 /* ViewController.m */; };
+		BEC1B05B1F3503A80046F3A6 /* GESortOption.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05A1F3503A80046F3A6 /* GESortOption.m */; };
+		BEC1B05C1F3503A80046F3A6 /* GESortOption.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05A1F3503A80046F3A6 /* GESortOption.m */; };
+		BEC1B05D1F3503A80046F3A6 /* GESortOption.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05A1F3503A80046F3A6 /* GESortOption.m */; };
+		BEC1B0601F3505C50046F3A6 /* GESortOptionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05F1F3505C50046F3A6 /* GESortOptionViewModel.m */; };
+		BEC1B0611F3505C50046F3A6 /* GESortOptionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05F1F3505C50046F3A6 /* GESortOptionViewModel.m */; };
+		BEC1B0621F3505C50046F3A6 /* GESortOptionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B05F1F3505C50046F3A6 /* GESortOptionViewModel.m */; };
+		BEC1B08C1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0891F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m */; };
+		BEC1B08D1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0891F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m */; };
+		BEC1B08E1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0891F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m */; };
+		BEC1B08F1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B08B1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m */; };
+		BEC1B0901F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B08B1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m */; };
+		BEC1B0911F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B08B1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m */; };
+		BEC1B0951F3647880046F3A6 /* GECoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0941F3647880046F3A6 /* GECoreDataManager.m */; };
+		BEC1B0961F3647880046F3A6 /* GECoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0941F3647880046F3A6 /* GECoreDataManager.m */; };
+		BEC1B0971F3647880046F3A6 /* GECoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B0941F3647880046F3A6 /* GECoreDataManager.m */; };
+		BEC1B09C1F365E310046F3A6 /* SortOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B09A1F365E310046F3A6 /* SortOptions.plist */; };
+		BEC1B09D1F365E310046F3A6 /* SortOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B09A1F365E310046F3A6 /* SortOptions.plist */; };
+		BEC1B09E1F365E310046F3A6 /* SortOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B09A1F365E310046F3A6 /* SortOptions.plist */; };
+		BEC1B09F1F365E310046F3A6 /* TravelModes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B09B1F365E310046F3A6 /* TravelModes.plist */; };
+		BEC1B0A01F365E310046F3A6 /* TravelModes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B09B1F365E310046F3A6 /* TravelModes.plist */; };
+		BEC1B0A11F365E310046F3A6 /* TravelModes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B09B1F365E310046F3A6 /* TravelModes.plist */; };
+		BEC1B0A41F365E990046F3A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B0A21F365E990046F3A6 /* LaunchScreen.storyboard */; };
+		BEC1B0A51F365E990046F3A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B0A21F365E990046F3A6 /* LaunchScreen.storyboard */; };
+		BEC1B0A61F365E990046F3A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B0A21F365E990046F3A6 /* LaunchScreen.storyboard */; };
+		BEC1B0A71F365E990046F3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B0A31F365E990046F3A6 /* Main.storyboard */; };
+		BEC1B0A81F365E990046F3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B0A31F365E990046F3A6 /* Main.storyboard */; };
+		BEC1B0A91F365E990046F3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC1B0A31F365E990046F3A6 /* Main.storyboard */; };
+		FBBD1F02C71C5EBC15AAEABE /* libPods-GoEuroUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E553F9E23D337BD0FA44AE43 /* libPods-GoEuroUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC1AFD31F3317990046F3A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC1AFAE1F3317990046F3A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC1AFB51F3317990046F3A6;
+			remoteInfo = GoEuro;
+		};
+		BEC1AFDE1F3317990046F3A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC1AFAE1F3317990046F3A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC1AFB51F3317990046F3A6;
+			remoteInfo = GoEuro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B7E590C1BB8C53F383D4710 /* Pods-GoEuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro.release.xcconfig"; sourceTree = "<group>"; };
+		1211C04A3E81C01CA04EA25A /* Pods-GoEuroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroUITests/Pods-GoEuroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A412B0D941A16E3DFEEAF17 /* Pods-GoEuroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroUITests/Pods-GoEuroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		851CBCFB59D36842E9B36994 /* Pods-GoEuroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTests/Pods-GoEuroTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CED1086D85E8992B51FC9DB /* Pods-GoEuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro.debug.xcconfig"; sourceTree = "<group>"; };
+		BE531CBF1F36F87E00261629 /* GEItenaryStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEItenaryStoreTests.m; sourceTree = "<group>"; };
+		BE531CC11F36F88E00261629 /* GECoreDataManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GECoreDataManagerTests.m; sourceTree = "<group>"; };
+		BE531CC31F36F8A100261629 /* GEViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEViewControllerTests.m; sourceTree = "<group>"; };
+		BEC1AFB61F3317990046F3A6 /* GoEuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC1AFBA1F3317990046F3A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BEC1AFBC1F3317990046F3A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BEC1AFBD1F3317990046F3A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BEC1AFC61F3317990046F3A6 /* GoEuro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoEuro.xcdatamodel; sourceTree = "<group>"; };
+		BEC1AFC81F3317990046F3A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC1AFCD1F3317990046F3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC1AFD21F3317990046F3A6 /* GoEuroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoEuroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC1AFD81F3317990046F3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC1AFDD1F3317990046F3A6 /* GoEuroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoEuroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC1AFE11F3317990046F3A6 /* GoEuroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GoEuroUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BEC1AFE31F3317990046F3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC1B0271F34A6D30046F3A6 /* GETravelMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GETravelMode.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BEC1B0281F34A6D30046F3A6 /* GETravelMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GETravelMode.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BEC1B0301F34A6F30046F3A6 /* GETravelOptionsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GETravelOptionsViewModel.h; sourceTree = "<group>"; };
+		BEC1B0311F34A6F30046F3A6 /* GETravelOptionsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GETravelOptionsViewModel.m; sourceTree = "<group>"; };
+		BEC1B0321F34A6F30046F3A6 /* GETravelModeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GETravelModeViewModel.h; sourceTree = "<group>"; };
+		BEC1B0331F34A6F30046F3A6 /* GETravelModeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GETravelModeViewModel.m; sourceTree = "<group>"; };
+		BEC1B03B1F34A7090046F3A6 /* GENetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GENetworkAdapter.h; sourceTree = "<group>"; };
+		BEC1B03C1F34A7090046F3A6 /* GENetworkAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GENetworkAdapter.m; sourceTree = "<group>"; };
+		BEC1B0421F34A72B0046F3A6 /* GEItenaryModeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEItenaryModeCollectionCell.h; sourceTree = "<group>"; };
+		BEC1B0431F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEItenaryModeCollectionCell.m; sourceTree = "<group>"; };
+		BEC1B0451F34A72B0046F3A6 /* GEItenaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEItenaryTableViewCell.h; sourceTree = "<group>"; };
+		BEC1B0461F34A72B0046F3A6 /* GEItenaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEItenaryTableViewCell.m; sourceTree = "<group>"; };
+		BEC1B04E1F34A7520046F3A6 /* GEItenaryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEItenaryStore.h; sourceTree = "<group>"; };
+		BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEItenaryStore.m; sourceTree = "<group>"; };
+		BEC1B0541F34A78D0046F3A6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BEC1B0551F34A78D0046F3A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BEC1B0591F3503A80046F3A6 /* GESortOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GESortOption.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BEC1B05A1F3503A80046F3A6 /* GESortOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GESortOption.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BEC1B05E1F3505C50046F3A6 /* GESortOptionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESortOptionViewModel.h; sourceTree = "<group>"; };
+		BEC1B05F1F3505C50046F3A6 /* GESortOptionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESortOptionViewModel.m; sourceTree = "<group>"; };
+		BEC1B0681F3541C50046F3A6 /* GEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEConstants.h; sourceTree = "<group>"; };
+		BEC1B0881F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GETravelOptionMO+CoreDataClass.h"; sourceTree = "<group>"; };
+		BEC1B0891F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GETravelOptionMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		BEC1B08A1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GETravelOptionMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BEC1B08B1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GETravelOptionMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BEC1B0921F36104F0046F3A6 /* GoEuro 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GoEuro 2.xcdatamodel"; sourceTree = "<group>"; };
+		BEC1B0931F3647880046F3A6 /* GECoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GECoreDataManager.h; sourceTree = "<group>"; };
+		BEC1B0941F3647880046F3A6 /* GECoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GECoreDataManager.m; sourceTree = "<group>"; };
+		BEC1B09A1F365E310046F3A6 /* SortOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SortOptions.plist; sourceTree = "<group>"; };
+		BEC1B09B1F365E310046F3A6 /* TravelModes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TravelModes.plist; sourceTree = "<group>"; };
+		BEC1B0A21F365E990046F3A6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC1B0A31F365E990046F3A6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CB62A00CD4F878E6A198C14A /* Pods-GoEuroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTests/Pods-GoEuroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E49E34DAD9027DC5A90D05D6 /* libPods-GoEuro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoEuro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E553F9E23D337BD0FA44AE43 /* libPods-GoEuroUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoEuroUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63F1BA179B86781FF720C5C /* libPods-GoEuroTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoEuroTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC1AFB31F3317990046F3A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97485727751F8889B11409ED /* libPods-GoEuro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC1AFCF1F3317990046F3A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CB143847283DE39ED5091D /* libPods-GoEuroTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC1AFDA1F3317990046F3A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD1F02C71C5EBC15AAEABE /* libPods-GoEuroUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F1BB067FDF1EBD75BD9C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CED1086D85E8992B51FC9DB /* Pods-GoEuro.debug.xcconfig */,
+				0B7E590C1BB8C53F383D4710 /* Pods-GoEuro.release.xcconfig */,
+				CB62A00CD4F878E6A198C14A /* Pods-GoEuroTests.debug.xcconfig */,
+				851CBCFB59D36842E9B36994 /* Pods-GoEuroTests.release.xcconfig */,
+				2A412B0D941A16E3DFEEAF17 /* Pods-GoEuroUITests.debug.xcconfig */,
+				1211C04A3E81C01CA04EA25A /* Pods-GoEuroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		782FB77BC1E4300C81F63E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E49E34DAD9027DC5A90D05D6 /* libPods-GoEuro.a */,
+				F63F1BA179B86781FF720C5C /* libPods-GoEuroTests.a */,
+				E553F9E23D337BD0FA44AE43 /* libPods-GoEuroUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC1AFAD1F3317990046F3A6 = {
+			isa = PBXGroup;
+			children = (
+				BEC1AFB81F3317990046F3A6 /* GoEuro */,
+				BEC1AFD51F3317990046F3A6 /* GoEuroTests */,
+				BEC1AFE01F3317990046F3A6 /* GoEuroUITests */,
+				BEC1AFB71F3317990046F3A6 /* Products */,
+				45F1BB067FDF1EBD75BD9C61 /* Pods */,
+				782FB77BC1E4300C81F63E67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC1AFB71F3317990046F3A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1AFB61F3317990046F3A6 /* GoEuro.app */,
+				BEC1AFD21F3317990046F3A6 /* GoEuroTests.xctest */,
+				BEC1AFDD1F3317990046F3A6 /* GoEuroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC1AFB81F3317990046F3A6 /* GoEuro */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1AFBC1F3317990046F3A6 /* AppDelegate.h */,
+				BEC1AFBD1F3317990046F3A6 /* AppDelegate.m */,
+				BEC1B0401F34A72B0046F3A6 /* Views */,
+				BEC1B0241F34A6D30046F3A6 /* Models */,
+				BEC1B02F1F34A6F30046F3A6 /* ViewModels */,
+				BEC1B04D1F34A7520046F3A6 /* StoreManager */,
+				BEC1B03A1F34A7090046F3A6 /* NetWorkAdapter */,
+				BEC1B0671F3541B30046F3A6 /* Constants */,
+				BEC1B0981F365E040046F3A6 /* Resources */,
+				BEC1B0991F365E040046F3A6 /* StoryBoards */,
+				BEC1AFC81F3317990046F3A6 /* Assets.xcassets */,
+				BEC1AFCD1F3317990046F3A6 /* Info.plist */,
+				BEC1AFC51F3317990046F3A6 /* GoEuro.xcdatamodeld */,
+				BEC1AFB91F3317990046F3A6 /* Supporting Files */,
+			);
+			path = GoEuro;
+			sourceTree = "<group>";
+		};
+		BEC1AFB91F3317990046F3A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1AFBA1F3317990046F3A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC1AFD51F3317990046F3A6 /* GoEuroTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE531CBF1F36F87E00261629 /* GEItenaryStoreTests.m */,
+				BE531CC11F36F88E00261629 /* GECoreDataManagerTests.m */,
+				BE531CC31F36F8A100261629 /* GEViewControllerTests.m */,
+				BEC1AFD81F3317990046F3A6 /* Info.plist */,
+			);
+			path = GoEuroTests;
+			sourceTree = "<group>";
+		};
+		BEC1AFE01F3317990046F3A6 /* GoEuroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1AFE11F3317990046F3A6 /* GoEuroUITests.m */,
+				BEC1AFE31F3317990046F3A6 /* Info.plist */,
+			);
+			path = GoEuroUITests;
+			sourceTree = "<group>";
+		};
+		BEC1B0241F34A6D30046F3A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B07D1F35F5280046F3A6 /* CoreDataModels */,
+				BEC1B0591F3503A80046F3A6 /* GESortOption.h */,
+				BEC1B05A1F3503A80046F3A6 /* GESortOption.m */,
+				BEC1B0271F34A6D30046F3A6 /* GETravelMode.h */,
+				BEC1B0281F34A6D30046F3A6 /* GETravelMode.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEC1B02F1F34A6F30046F3A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B05E1F3505C50046F3A6 /* GESortOptionViewModel.h */,
+				BEC1B05F1F3505C50046F3A6 /* GESortOptionViewModel.m */,
+				BEC1B0301F34A6F30046F3A6 /* GETravelOptionsViewModel.h */,
+				BEC1B0311F34A6F30046F3A6 /* GETravelOptionsViewModel.m */,
+				BEC1B0321F34A6F30046F3A6 /* GETravelModeViewModel.h */,
+				BEC1B0331F34A6F30046F3A6 /* GETravelModeViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEC1B03A1F34A7090046F3A6 /* NetWorkAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B03B1F34A7090046F3A6 /* GENetworkAdapter.h */,
+				BEC1B03C1F34A7090046F3A6 /* GENetworkAdapter.m */,
+			);
+			path = NetWorkAdapter;
+			sourceTree = "<group>";
+		};
+		BEC1B0401F34A72B0046F3A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B0531F34A78D0046F3A6 /* ViewControllers */,
+				BEC1B0411F34A72B0046F3A6 /* CollectionViewCells */,
+				BEC1B0441F34A72B0046F3A6 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEC1B0411F34A72B0046F3A6 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B0421F34A72B0046F3A6 /* GEItenaryModeCollectionCell.h */,
+				BEC1B0431F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m */,
+			);
+			name = CollectionViewCells;
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		BEC1B0441F34A72B0046F3A6 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B0451F34A72B0046F3A6 /* GEItenaryTableViewCell.h */,
+				BEC1B0461F34A72B0046F3A6 /* GEItenaryTableViewCell.m */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		BEC1B04D1F34A7520046F3A6 /* StoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B04E1F34A7520046F3A6 /* GEItenaryStore.h */,
+				BEC1B04F1F34A7520046F3A6 /* GEItenaryStore.m */,
+				BEC1B0931F3647880046F3A6 /* GECoreDataManager.h */,
+				BEC1B0941F3647880046F3A6 /* GECoreDataManager.m */,
+			);
+			name = StoreManager;
+			path = StoreManage;
+			sourceTree = "<group>";
+		};
+		BEC1B0531F34A78D0046F3A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B0541F34A78D0046F3A6 /* ViewController.h */,
+				BEC1B0551F34A78D0046F3A6 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BEC1B0671F3541B30046F3A6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B0681F3541C50046F3A6 /* GEConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BEC1B07D1F35F5280046F3A6 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B0881F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.h */,
+				BEC1B0891F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m */,
+				BEC1B08A1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.h */,
+				BEC1B08B1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m */,
+			);
+			path = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		BEC1B0981F365E040046F3A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B09A1F365E310046F3A6 /* SortOptions.plist */,
+				BEC1B09B1F365E310046F3A6 /* TravelModes.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEC1B0991F365E040046F3A6 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B0A21F365E990046F3A6 /* LaunchScreen.storyboard */,
+				BEC1B0A31F365E990046F3A6 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC1AFB51F3317990046F3A6 /* GoEuro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC1AFE61F3317990046F3A6 /* Build configuration list for PBXNativeTarget "GoEuro" */;
+			buildPhases = (
+				EA82F1252AC82B2A06D1D4FB /* [CP] Check Pods Manifest.lock */,
+				BEC1AFB21F3317990046F3A6 /* Sources */,
+				BEC1AFB31F3317990046F3A6 /* Frameworks */,
+				BEC1AFB41F3317990046F3A6 /* Resources */,
+				77CA8AE3254A936C4AFA7238 /* [CP] Embed Pods Frameworks */,
+				5EC432230AA0DA28C12C5468 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoEuro;
+			productName = GoEuro;
+			productReference = BEC1AFB61F3317990046F3A6 /* GoEuro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC1AFD11F3317990046F3A6 /* GoEuroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC1AFE91F3317990046F3A6 /* Build configuration list for PBXNativeTarget "GoEuroTests" */;
+			buildPhases = (
+				4A93A456A823CA1C0E3F732B /* [CP] Check Pods Manifest.lock */,
+				BEC1AFCE1F3317990046F3A6 /* Sources */,
+				BEC1AFCF1F3317990046F3A6 /* Frameworks */,
+				BEC1AFD01F3317990046F3A6 /* Resources */,
+				002F3B712A260F8450C9917F /* [CP] Embed Pods Frameworks */,
+				ABADBFAFDA829ABCA0ED49D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC1AFD41F3317990046F3A6 /* PBXTargetDependency */,
+			);
+			name = GoEuroTests;
+			productName = GoEuroTests;
+			productReference = BEC1AFD21F3317990046F3A6 /* GoEuroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEC1AFDC1F3317990046F3A6 /* GoEuroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC1AFEC1F3317990046F3A6 /* Build configuration list for PBXNativeTarget "GoEuroUITests" */;
+			buildPhases = (
+				EE85588F52AD899D9820BAB6 /* [CP] Check Pods Manifest.lock */,
+				BEC1AFD91F3317990046F3A6 /* Sources */,
+				BEC1AFDA1F3317990046F3A6 /* Frameworks */,
+				BEC1AFDB1F3317990046F3A6 /* Resources */,
+				5D23016A9EA6F406416CD71A /* [CP] Embed Pods Frameworks */,
+				B5DF61697B056AE6430A0345 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC1AFDF1F3317990046F3A6 /* PBXTargetDependency */,
+			);
+			name = GoEuroUITests;
+			productName = GoEuroUITests;
+			productReference = BEC1AFDD1F3317990046F3A6 /* GoEuroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC1AFAE1F3317990046F3A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Demo;
+				TargetAttributes = {
+					BEC1AFB51F3317990046F3A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5GBJP5SBDD;
+						ProvisioningStyle = Automatic;
+					};
+					BEC1AFD11F3317990046F3A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5GBJP5SBDD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEC1AFB51F3317990046F3A6;
+					};
+					BEC1AFDC1F3317990046F3A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5GBJP5SBDD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEC1AFB51F3317990046F3A6;
+					};
+				};
+			};
+			buildConfigurationList = BEC1AFB11F3317990046F3A6 /* Build configuration list for PBXProject "GoEuro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC1AFAD1F3317990046F3A6;
+			productRefGroup = BEC1AFB71F3317990046F3A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC1AFB51F3317990046F3A6 /* GoEuro */,
+				BEC1AFD11F3317990046F3A6 /* GoEuroTests */,
+				BEC1AFDC1F3317990046F3A6 /* GoEuroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC1AFB41F3317990046F3A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC1B09F1F365E310046F3A6 /* TravelModes.plist in Resources */,
+				BEC1B0A71F365E990046F3A6 /* Main.storyboard in Resources */,
+				BEC1B0A41F365E990046F3A6 /* LaunchScreen.storyboard in Resources */,
+				BEC1AFC91F3317990046F3A6 /* Assets.xcassets in Resources */,
+				BEC1B09C1F365E310046F3A6 /* SortOptions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC1AFD01F3317990046F3A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC1B0A51F365E990046F3A6 /* LaunchScreen.storyboard in Resources */,
+				BEC1B09D1F365E310046F3A6 /* SortOptions.plist in Resources */,
+				BEC1B0A01F365E310046F3A6 /* TravelModes.plist in Resources */,
+				BEC1B0A81F365E990046F3A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC1AFDB1F3317990046F3A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC1B0A61F365E990046F3A6 /* LaunchScreen.storyboard in Resources */,
+				BEC1B09E1F365E310046F3A6 /* SortOptions.plist in Resources */,
+				BEC1B0A11F365E310046F3A6 /* TravelModes.plist in Resources */,
+				BEC1B0A91F365E990046F3A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002F3B712A260F8450C9917F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroTests/Pods-GoEuroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A93A456A823CA1C0E3F732B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D23016A9EA6F406416CD71A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroUITests/Pods-GoEuroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EC432230AA0DA28C12C5468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77CA8AE3254A936C4AFA7238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABADBFAFDA829ABCA0ED49D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroTests/Pods-GoEuroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5DF61697B056AE6430A0345 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroUITests/Pods-GoEuroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA82F1252AC82B2A06D1D4FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE85588F52AD899D9820BAB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC1AFB21F3317990046F3A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC1B0501F34A7520046F3A6 /* GEItenaryStore.m in Sources */,
+				BEC1B05B1F3503A80046F3A6 /* GESortOption.m in Sources */,
+				BEC1B04A1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */,
+				BEC1B02C1F34A6D30046F3A6 /* GETravelMode.m in Sources */,
+				BEC1AFC71F3317990046F3A6 /* GoEuro.xcdatamodeld in Sources */,
+				BEC1B03D1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */,
+				BEC1B0561F34A78D0046F3A6 /* ViewController.m in Sources */,
+				BEC1B0471F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m in Sources */,
+				BEC1B0601F3505C50046F3A6 /* GESortOptionViewModel.m in Sources */,
+				BEC1B08F1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m in Sources */,
+				BEC1AFBE1F3317990046F3A6 /* AppDelegate.m in Sources */,
+				BEC1AFBB1F3317990046F3A6 /* main.m in Sources */,
+				BEC1B0341F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */,
+				BEC1B0951F3647880046F3A6 /* GECoreDataManager.m in Sources */,
+				BEC1B08C1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m in Sources */,
+				BEC1B0371F34A6F30046F3A6 /* GETravelModeViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC1AFCE1F3317990046F3A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE531CC21F36F88E00261629 /* GECoreDataManagerTests.m in Sources */,
+				BEC1B0481F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m in Sources */,
+				BE531CC01F36F87E00261629 /* GEItenaryStoreTests.m in Sources */,
+				BEC1B03E1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */,
+				BEC1B0351F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */,
+				BEC1B0571F34A78D0046F3A6 /* ViewController.m in Sources */,
+				BEC1B04B1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */,
+				BEC1B02D1F34A6D30046F3A6 /* GETravelMode.m in Sources */,
+				BEC1B0511F34A7520046F3A6 /* GEItenaryStore.m in Sources */,
+				BEC1B0901F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m in Sources */,
+				BEC1B05C1F3503A80046F3A6 /* GESortOption.m in Sources */,
+				BEC1B0961F3647880046F3A6 /* GECoreDataManager.m in Sources */,
+				BEC1B0381F34A6F30046F3A6 /* GETravelModeViewModel.m in Sources */,
+				BEC1B0611F3505C50046F3A6 /* GESortOptionViewModel.m in Sources */,
+				BEC1B08D1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m in Sources */,
+				BE531CC41F36F8A100261629 /* GEViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC1AFD91F3317990046F3A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC1B0491F34A72B0046F3A6 /* GEItenaryModeCollectionCell.m in Sources */,
+				BEC1B03F1F34A7090046F3A6 /* GENetworkAdapter.m in Sources */,
+				BEC1B0361F34A6F30046F3A6 /* GETravelOptionsViewModel.m in Sources */,
+				BEC1AFE21F3317990046F3A6 /* GoEuroUITests.m in Sources */,
+				BEC1B0581F34A78D0046F3A6 /* ViewController.m in Sources */,
+				BEC1B04C1F34A72B0046F3A6 /* GEItenaryTableViewCell.m in Sources */,
+				BEC1B02E1F34A6D30046F3A6 /* GETravelMode.m in Sources */,
+				BEC1B0521F34A7520046F3A6 /* GEItenaryStore.m in Sources */,
+				BEC1B0911F35F95E0046F3A6 /* GETravelOptionMO+CoreDataProperties.m in Sources */,
+				BEC1B05D1F3503A80046F3A6 /* GESortOption.m in Sources */,
+				BEC1B0971F3647880046F3A6 /* GECoreDataManager.m in Sources */,
+				BEC1B0391F34A6F30046F3A6 /* GETravelModeViewModel.m in Sources */,
+				BEC1B0621F3505C50046F3A6 /* GESortOptionViewModel.m in Sources */,
+				BEC1B08E1F35F95E0046F3A6 /* GETravelOptionMO+CoreDataClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC1AFD41F3317990046F3A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC1AFB51F3317990046F3A6 /* GoEuro */;
+			targetProxy = BEC1AFD31F3317990046F3A6 /* PBXContainerItemProxy */;
+		};
+		BEC1AFDF1F3317990046F3A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC1AFB51F3317990046F3A6 /* GoEuro */;
+			targetProxy = BEC1AFDE1F3317990046F3A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEC1AFE41F3317990046F3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC1AFE51F3317990046F3A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC1AFE71F3317990046F3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CED1086D85E8992B51FC9DB /* Pods-GoEuro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GBJP5SBDD;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = GoEuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GoEuroDemo.GoEuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEC1AFE81F3317990046F3A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7E590C1BB8C53F383D4710 /* Pods-GoEuro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GBJP5SBDD;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = GoEuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GoEuroDemo.GoEuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEC1AFEA1F3317990046F3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB62A00CD4F878E6A198C14A /* Pods-GoEuroTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5GBJP5SBDD;
+				INFOPLIST_FILE = GoEuroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GoEuroDemo.GoEuroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuro.app/GoEuro";
+			};
+			name = Debug;
+		};
+		BEC1AFEB1F3317990046F3A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851CBCFB59D36842E9B36994 /* Pods-GoEuroTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5GBJP5SBDD;
+				INFOPLIST_FILE = GoEuroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GoEuroDemo.GoEuroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuro.app/GoEuro";
+			};
+			name = Release;
+		};
+		BEC1AFED1F3317990046F3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A412B0D941A16E3DFEEAF17 /* Pods-GoEuroUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5GBJP5SBDD;
+				INFOPLIST_FILE = GoEuroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GoEuroDemo.GoEuroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoEuro;
+			};
+			name = Debug;
+		};
+		BEC1AFEE1F3317990046F3A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1211C04A3E81C01CA04EA25A /* Pods-GoEuroUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5GBJP5SBDD;
+				INFOPLIST_FILE = GoEuroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GoEuroDemo.GoEuroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoEuro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC1AFB11F3317990046F3A6 /* Build configuration list for PBXProject "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC1AFE41F3317990046F3A6 /* Debug */,
+				BEC1AFE51F3317990046F3A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC1AFE61F3317990046F3A6 /* Build configuration list for PBXNativeTarget "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC1AFE71F3317990046F3A6 /* Debug */,
+				BEC1AFE81F3317990046F3A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC1AFE91F3317990046F3A6 /* Build configuration list for PBXNativeTarget "GoEuroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC1AFEA1F3317990046F3A6 /* Debug */,
+				BEC1AFEB1F3317990046F3A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC1AFEC1F3317990046F3A6 /* Build configuration list for PBXNativeTarget "GoEuroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC1AFED1F3317990046F3A6 /* Debug */,
+				BEC1AFEE1F3317990046F3A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEC1AFC51F3317990046F3A6 /* GoEuro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEC1B0921F36104F0046F3A6 /* GoEuro 2.xcdatamodel */,
+				BEC1AFC61F3317990046F3A6 /* GoEuro.xcdatamodel */,
+			);
+			currentVersion = BEC1B0921F36104F0046F3A6 /* GoEuro 2.xcdatamodel */;
+			path = GoEuro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEC1AFAE1F3317990046F3A6 /* Project object */;
+}
