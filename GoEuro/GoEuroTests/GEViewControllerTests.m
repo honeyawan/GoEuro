@@ -7,11 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "ViewController.h"
 #import <UIKit/UIKit.h>
+#import "TravelOptionsViewController.h"
 @interface GEViewControllerTests : XCTestCase
 
-@property (nonatomic,strong) ViewController *viewController;
+@property (nonatomic,strong) TravelOptionsViewController *viewController;
 
 @end
 
@@ -22,11 +22,10 @@
     [super setUp];
     
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ViewController *controller = (ViewController *)[storyBoard instantiateViewControllerWithIdentifier:@"ViewControllerID"];
+    TravelOptionsViewController *controller = (TravelOptionsViewController *)[storyBoard instantiateViewControllerWithIdentifier:@"ViewControllerID"];
     self.viewController = controller;
     UIView *controllerView = self.viewController.view;
     NSLog(@"%@",controllerView);
-    
     
 }
 

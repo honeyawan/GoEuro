@@ -52,8 +52,6 @@
     
     [self.spinner startAnimating];
     __weak TravelOptionsViewController *weakSelf = self;
-
-
     [self.itenaryViewModel fetchItenariesWithURL:[self.modeViewModel selectedItenaryURl] sortOption:[self.sortViewModel getSelectedSortType] completionHandler:^(NSError * _Nullable error) {
         [weakSelf.spinner stopAnimating];
         if (error) {
@@ -82,8 +80,6 @@
 
 -(void)showInfoMessage {
     self.view.userInteractionEnabled = false;
-    
-    
     [UIView animateWithDuration:0.5 animations:^{
         self.offerInfoMsgView.alpha = 1.0;
     } completion:^(BOOL finished) {

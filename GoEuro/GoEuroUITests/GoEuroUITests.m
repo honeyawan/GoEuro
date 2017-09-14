@@ -34,6 +34,16 @@
 
 - (void)testExample {
     // Use recording to get started writing UI tests.
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCUIElement *sortButton = app.buttons[@"Sort"];
+    [sortButton tap];
+    [sortButton tap];
+    
+    XCUIElementQuery *collectionViewsQuery = app.collectionViews;
+    [collectionViewsQuery.staticTexts[@"Arrival"] tap];
+    [collectionViewsQuery.staticTexts[@"Buses"] tap];
+//    [[app.tables.cells containingType:XCUIElementTypeStaticText identifier:@"6:54 - 10:25"].staticTexts[@"2 Stops"] swipeUp];
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
