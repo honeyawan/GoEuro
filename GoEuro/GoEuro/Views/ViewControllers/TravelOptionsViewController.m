@@ -32,8 +32,21 @@
     self.itenaryViewModel = [[GETravelOptionsViewModel alloc] init];
     self.modeViewModel = [[GETravelModeViewModel alloc] init];
     self.sortViewModel = [[GESortOptionViewModel alloc] init];
+    
+    [self.itenaryViewModel addObserver:self forKeyPath:@"itenaries" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld  context:nil];
+    
     [self fetchItenaries];
     
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+
+    if ([keyPath isEqualToString:@"itenaries"]) {
+        [self.itenaryTableView reloadData];
+    } else {
+        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+    }
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
@@ -58,7 +71,7 @@
             // Show Error Message
         }
         else {
-            [weakSelf.itenaryTableView reloadData];
+//            [weakSelf.itenaryTableView reloadData];
         }
     }];
 }
